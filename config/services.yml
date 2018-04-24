@@ -1,0 +1,11 @@
+services:
+    primehalo.primequicklogin.listener:
+        class: primehalo\primequicklogin\event\listener
+        arguments:
+            - '@config'
+            - '@template'
+            - '@user'
+            - '%core.root_path%'
+            - '%core.php_ext%'
+        tags:
+            - { name: event.listener }

@@ -1,0 +1,17 @@
+#primequicklogin form {
+	margin:0 1em;
+}
+#primequicklogin fieldset {
+	white-space:nowrap;
+	margin:0;
+	font-size:1em;
+	line-height:1.5em;
+}
+#primequicklogin label>span,
+#primequicklogin input[type="checkbox"]>span {
+	position:relative;
+	top:1px;
+}
+#primequicklogin input.inputbox{
+	min-width:100px;
+}

@@ -1,0 +1,32 @@
+{
+	"name": "primehalo/primequicklogin",
+	"type": "phpbb-extension",
+	"description": "Adds a quick login form to the header of every page.",
+	"homepage": "http://www.absoluteanime.com/_phpbb-extensions_/",
+	"version": "1.1.0",
+	"time": "2018-04-24",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ken F. Innes IV",
+			"email": "primehalo@gmail.com",
+			"homepage": "http://www.absoluteanime.com/",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Prime Quick Login",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2.0,<3.3.0@dev"
+		}
+	},
+	"version-check": {
+	    "host": "www.absoluteanime.com",
+		"directory": "/_phpbb-extensions_/versioncheck",
+		"filename": "primequicklogin.json",
+		"ssl": true
+	}
+}
